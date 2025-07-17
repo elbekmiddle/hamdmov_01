@@ -1,6 +1,6 @@
 'use client'
 import React from 'react'
-import { FaFacebookF, FaInstagram, FaTwitter, FaLinkedinIn } from 'react-icons/fa'
+import { Facebook, Instagram, Twitter, Linkedin } from 'lucide-react'
 
 export default function page() {
   return (
@@ -38,10 +38,10 @@ export default function page() {
 
           {/* Social Icons */}
           <div className="flex gap-3 mt-4 text-gray-600 text-xl">
-            <FaFacebookF className="hover:text-blue-600 cursor-pointer" />
-            <FaInstagram className="hover:text-pink-600 cursor-pointer" />
-            <FaTwitter className="hover:text-blue-400 cursor-pointer" />
-            <FaLinkedinIn className="hover:text-blue-800 cursor-pointer" />
+            <Facebook className="hover:text-blue-600 cursor-pointer" />
+            <Instagram className="hover:text-pink-600 cursor-pointer" />
+            <Twitter className="hover:text-blue-400 cursor-pointer" />
+            <Linkedin className="hover:text-blue-800 cursor-pointer" />
           </div>
         </div>
       </div>
