@@ -23,7 +23,7 @@ export default function page() {
       {/* Hero Card */}
       <div className="w-full max-w-screen-md bg-[#dee2e6] rounded-2xl overflow-hidden mt-6">
         <img
-          src="https://clarity-tailwind.preview.uideck.com/images/hero/hero-01.jpg"
+          src="https://clarity-tailwind.preview.uideck.com/images/hero-01.png"
           alt="Hero Image"
           className="w-full"
         />
@@ -52,7 +52,7 @@ export default function page() {
         {/* Left Card */}
         <div className="flex-1 bg-[#dee2e6] rounded-2xl overflow-hidden">
           <img
-            src="https://clarity-tailwind.preview.uideck.com/images/hero/hero-02.jpg"
+            src="https://clarity-tailwind.preview.uideck.com/images/hero-02.png"
             alt="Technology"
             className="w-full"
           />
@@ -70,7 +70,7 @@ export default function page() {
         {/* Right Card */}
         <div className="flex-1 bg-[#dee2e6] rounded-2xl overflow-hidden">
           <img
-            src="https://clarity-tailwind.preview.uideck.com/images/hero/hero-03.jpg"
+            src="https://clarity-tailwind.preview.uideck.com/images/hero-03.png"
             alt="Travel"
             className="w-full"
           />
