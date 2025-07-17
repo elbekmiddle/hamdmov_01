@@ -1,4 +1,6 @@
-import React from 'react';
+'use client'
+import React from 'react'
+import { FaFacebookF, FaInstagram, FaTwitter, FaLinkedinIn } from 'react-icons/fa'
 
 export default function page() {
   return (
@@ -16,18 +18,12 @@ export default function page() {
           <li>Blogs</li>
           <li>Support</li>
         </ul>
-
-        {/* Social Icons */}
-        <div className="flex gap-3">
-          <a href="#" className="text-sm">FB</a>
-          <a href="#" className="text-sm">IG</a>
-        </div>
       </div>
 
       {/* Hero Card */}
       <div className="w-full max-w-screen-md bg-[#dee2e6] rounded-2xl overflow-hidden mt-6">
         <img
-          src="https://clarity-tailwind.preview.uideck.com/images/hero-01.png"
+          src="https://clarity-tailwind.preview.uideck.com/images/hero/hero-01.jpg"
           alt="Hero Image"
           className="w-full"
         />
@@ -39,6 +35,14 @@ export default function page() {
           <p className="text-sm text-gray-700 mt-2">
             Discover the principles of simplicity and conscious living in a fast-paced world.
           </p>
+
+          {/* Social Icons */}
+          <div className="flex gap-3 mt-4 text-gray-600 text-xl">
+            <FaFacebookF className="hover:text-blue-600 cursor-pointer" />
+            <FaInstagram className="hover:text-pink-600 cursor-pointer" />
+            <FaTwitter className="hover:text-blue-400 cursor-pointer" />
+            <FaLinkedinIn className="hover:text-blue-800 cursor-pointer" />
+          </div>
         </div>
       </div>
 
@@ -48,7 +52,7 @@ export default function page() {
         {/* Left Card */}
         <div className="flex-1 bg-[#dee2e6] rounded-2xl overflow-hidden">
           <img
-            src="https://clarity-tailwind.preview.uideck.com/images/hero-02.png"
+            src="https://clarity-tailwind.preview.uideck.com/images/hero/hero-02.jpg"
             alt="Technology"
             className="w-full"
           />
@@ -66,7 +70,7 @@ export default function page() {
         {/* Right Card */}
         <div className="flex-1 bg-[#dee2e6] rounded-2xl overflow-hidden">
           <img
-            src="https://clarity-tailwind.preview.uideck.com/images/hero-03.png"
+            src="https://clarity-tailwind.preview.uideck.com/images/hero/hero-03.jpg"
             alt="Travel"
             className="w-full"
           />
@@ -83,5 +87,5 @@ export default function page() {
 
       </div>
     </div>
-  );
+  )
 }
